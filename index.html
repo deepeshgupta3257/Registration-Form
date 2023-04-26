@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdd9365b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div class="container">
+        <div class="designbox">
+            <h1 id="title">Student Info</h1>
+            <form class="signup">
+                <div class="form-group">
+                    <div class="form-field" id="namechange">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="number" id="age" placeholder="Enter Your Age" required>
+                    </div>
+                    <div class="form-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="date" id="janamdin" placeholder="Date of Birth" required>
+                    </div>
+                    <br>
+                </div>
+                <div class="btns">
+                    <button type="button" id="entry">Submit</button>
+                </div>
+                <hr class="dashed">
+                <div class="display-walla">
+                    <h1>Data present</h1>
+                </div>
+                <table id="dis">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>DOB</th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 200vh;
+    background-image:url(https://cdn.wallpapersafari.com/79/80/AejK0t.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.designbox{
+    width: 40%; 
+    max-width: 800px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background: #a99f9f;
+    padding:50px 60px 70px ;
+    text-align: center;
+    border-radius: 20px;
+}
+.designbox h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+    position: relative;
+    color: rgb(68, 33, 166);
+}
+.designbox h1::after{
+    content: '';
+    width: 55px;
+    height: 4px;
+    border-radius: 4px;
+    background: #3c00a0;
+    position: absolute;
+    left: 40%;
+    top:48px;
+
+}
+.form-field{
+    /* margin: 2vh;
+    padding: 2px 4px; */
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 12px 10px;
+}
+.form-field i{
+    color: #999;
+    padding-left: 15px;
+}
+.form-group p{
+    font-size: 3px;
+    position: relative;
+    left: -25%;
+    top: -8px;
+}
+.form-group a{
+    text-decoration: none;
+    color: #7d3de5;
+}
+.btns{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btns button{
+    background: #3c00a0;
+    color: #fff;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+hr.dashed{
+    border-top: 10px solid rgb(128, 66, 236);
+}
+.display-walla{
+    margin-top: 4vh;
+}
+table{
+    border: 2px solid purple;
+    /* padding: 6px; */
+    margin-left: 6vh;
+}
+th,td{
+    border: 2px solid rgba(171, 89, 234, 0.903);
+}
+th{
+    font-size: 30px;
+    font-weight: 600;
+    background: rgb(199, 72, 235);
+    color: #fff;
+    padding: 0px 25px;
+}
